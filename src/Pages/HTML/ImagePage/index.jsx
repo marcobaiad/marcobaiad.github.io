@@ -2,6 +2,7 @@ import Title from 'antd/lib/typography/Title'
 import Text from 'antd/lib/typography/Text'
 import Paragraph from 'antd/lib/typography/Paragraph'
 import PreCode from '../../../components/PreCode'
+import ejemploIMG from '../../../assets/images/ejemplo.jpg'
 import { Divider } from 'antd'
 
 const ImagePage = () => {
@@ -34,7 +35,7 @@ const ImagePage = () => {
       </Paragraph>
       <Title level={3}>Resultado</Title>
       <img
-        src="../../../assets/images/ejemplo.jpg"
+        src={ejemploIMG}
         alt="Ejemplo Local"
         width="200px"
         height="200px"

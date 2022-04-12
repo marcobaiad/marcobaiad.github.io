@@ -2,7 +2,7 @@
   "name": "mentoria",
   "private": true,
   "version": "0.0.0",
-  "homepage": "",
+  "homepage": "https://marcobaiad.github.io",
   "scripts": {
     "lint": "eslint . --ext .jsx --fix",
     "dev": "npm run lint && vite",
