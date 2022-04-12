@@ -1,0 +1,15 @@
+.preContainer {
+  overflow: auto;
+  background-color: grey;
+  padding-inline: 1rem;
+  color: white;
+}
+
+.codeContainer {
+  max-width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  min-height: 22px;
+  color: white;
+}
